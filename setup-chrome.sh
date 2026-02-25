@@ -1,0 +1,12 @@
+#!/bin/bash
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo dpkg -i google-chrome-stable_current_amd64.deb
+sudo apt install -f
+
+# NOTE
+# enable gpu
+# chrome://flags
+# enable follows
+# #ignore-gpu-blocklist
+# #enable-gpu-rasterization
+# #enable-zero-copy
