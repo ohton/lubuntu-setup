@@ -3,6 +3,7 @@
     "packages": [
       "jq",
       "openssh-server",
+      "tmux",
       "fzf"
     ]
   },
